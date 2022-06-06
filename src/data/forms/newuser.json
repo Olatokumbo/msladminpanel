@@ -1,0 +1,52 @@
+[
+  {
+    "id": "1",
+    "type": "textfield",
+    "props": {
+      "id": "name",
+      "label": "Name",
+      "hintText": "Name is required",
+      "errorText": ""
+    },
+    "rules": {
+      "validation": [
+        {
+          "rule": "required",
+          "message": "Name Is Required"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2",
+    "type": "select",
+    "props": {
+      "id": "class",
+      "label": "Class",
+      "hintText": "Class required",
+      "errorText": ""
+    },
+    "options": [
+      {
+        "name": "A",
+        "value": "A"
+      },
+      {
+        "name": "B",
+        "value": "B"
+      },
+      {
+        "name": "C",
+        "value": "C"
+      }
+    ],
+    "rules": {
+      "validation": [
+        {
+          "rule": "required",
+          "message": "Class Required"
+        }
+      ]
+    }
+  }
+]
