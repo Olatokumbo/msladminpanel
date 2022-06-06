@@ -4,12 +4,12 @@ import { getFirestore } from "firebase/firestore";
 import { getStorage } from "firebase/storage";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyB6TM-SMYOcagqNtX2qfH7MflVjQxTgE2Y",
-  authDomain: "msladminpanel.firebaseapp.com",
-  projectId: "msladminpanel",
-  storageBucket: "msladminpanel.appspot.com",
-  messagingSenderId: "171076725461",
-  appId: "1:171076725461:web:47794fb59d798c0c3f505c",
+  apiKey: "AIzaSyDilWROVVxuUFJ5rV1EsNCOqeiepK2CrLM",
+  authDomain: "msladminpanel-6d733.firebaseapp.com",
+  projectId: "msladminpanel-6d733",
+  storageBucket: "msladminpanel-6d733.appspot.com",
+  messagingSenderId: "773465114885",
+  appId: "1:773465114885:web:2d5f2133c5c1f8fd618f6c"
 };
 
 const app = initializeApp(firebaseConfig);
